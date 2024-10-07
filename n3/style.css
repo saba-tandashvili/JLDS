@@ -1,0 +1,48 @@
+div{
+    float: left;
+}
+.container1{
+    height: 400px;
+    width: 350px;
+    box-shadow: 0px 0px 10px gray;
+    border: gray;
+    border-radius: 20px;
+    text-align: center;
+}
+.detail{
+    color: #BBBBBB;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.main{
+    font-size: 25px;
+}
+.but1{
+    border: none;
+    color: hsl(160, 29%, 50%);
+    font-size: 17px;
+    background-color: white;
+    margin-top: 70px;
+}
+.img{
+    margin-top: 30px;
+}
+.container2{
+    margin-left: 40px;
+    height: 400px;
+    width: 350px;
+    box-shadow: 0px 0px 10px gray;
+    border: gray;
+    border-radius: 20px;
+    text-align: center;
+}
+.but2{
+    border: none;
+    color: #CEA09D;
+    font-size: 17px;
+    background-color: white;
+    margin-top: 72px;
+}
+#img2{
+    margin-bottom: 10px;
+}

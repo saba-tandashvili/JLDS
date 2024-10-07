@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+.container{
+    height: 300px;
+    width: 550px;
+    background-color: white;
+    text-align: center;
+}
+.image{
+    height: 90px;
+    width: 350px;
+    margin-top: 70px;
+}
+.but1{
+    background-color: #bfbfbf; 
+    margin-top: 70px;
+    height: 66px;
+    width: 275px;
+    margin-right: 0;
+}
+.but2{
+    background-color: #90D24A;
+    height: 68px;
+    width: 270px;
+    margin-left: 0;
+    color: white;
+}
+button{
+    border: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    transition: 1s;
+}
+.but2:hover{
+    background-color:hsl(89, 60%, 65%);
+}
+.but1:hover{
+    background-color: hsl(0, 0%, 85%);
+}

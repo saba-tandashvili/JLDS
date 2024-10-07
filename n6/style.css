@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+}
+.header {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+}
+.logo i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.links {
+    float: right;
+}
+.links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+}
+.links .button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.notification {
+    background-color: #f9d71c;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+}
+.notification span {
+    margin-right: 20px;
+    float: left;
+}

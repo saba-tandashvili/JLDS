@@ -1,0 +1,42 @@
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.main{
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+.small{
+    font-size: 20px;
+    color: hsl(0, 0%, 59%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+.but1{
+    background-color: #BCB5D9;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+}
+.but2{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-color: #BCB5D9;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+}
+button{
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    height: 55px;
+    width: 155px;
+}

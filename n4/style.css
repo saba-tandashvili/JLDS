@@ -1,0 +1,39 @@
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+.small{
+    font-size: 30px;
+    color: #8B8A8F;
+}
+.but1{
+    background-color:black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+.but2{
+    background-color:white;
+    border-color: red;
+    border-width: 1px;
+    color: black;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+}
+button{
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    height: 45px;
+    width: 155px;
+}
