@@ -1,0 +1,65 @@
+body{
+    background-color: #E9E9EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UX{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #FBFBFB;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.UI{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #FBFBFB;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.DEV{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #FBFBFB;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.developericon{
+    height: 100px;
+    width: 100px;
+}
+.back{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+
+}
+.next{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+}
+button{
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #B768C4;
+    color: white;   
+}
