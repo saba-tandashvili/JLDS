@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.cart {
+    font-size: 24px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.lamp {
+    width: 300px;
+    height: 500px;
+    background: url('lampioni.jpg') no-repeat center center;
+    background-size: cover;
+}
+.info {
+    max-width: 600px;
+}
+.info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.info p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.prices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.price {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px #0000001a;
+}
+.price h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.price .amount {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff9900;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+.footer a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+.floating-buttons .button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.floating-buttons .button.secondary {
+    background-color: #ffffff;
+    color: #ff9900;
+}

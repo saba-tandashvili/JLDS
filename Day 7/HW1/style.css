@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.left-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 7%;
+    padding: 10px;
+}
+.left-panel img {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.right-panel {
+    width: 75%;
+    padding: 20px;
+}
+.right-panel h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.right-panel .price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.right-panel .price .original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+.right-panel .price .discounted-price {
+    color: #e60000;
+}
+.right-panel .color-options {
+    margin: 20px 0;
+}
+.right-panel .color-options span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.right-panel .color-options span.brown {
+    background-color: #8b4513;
+}
+.right-panel .color-options span.blue {
+    background-color: #d3d3d3;
+}
+.right-panel .color-options span.gray {
+    background-color: #f5f5f5;
+}
+.right-panel .add-to-bag {
+    background-color: #d87d4a;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.right-panel .share {
+    margin-top: 20px;
+}
+.right-panel .share i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #999;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.header .menu {
+    display: flex;
+    align-items: center;
+}
+.header .menu i {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}

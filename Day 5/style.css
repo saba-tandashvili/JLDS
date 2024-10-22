@@ -1,0 +1,58 @@
+body {
+    background-color: #C8D9C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card h2 {
+    color: #2b2b2b;
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+.card p {
+    color: #6c6c6c;
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.price {
+    font-size: 24px;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+}
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3d977;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
