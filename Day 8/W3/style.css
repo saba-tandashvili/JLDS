@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5e8e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.card img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.card h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.card p {
+    color: #666666;
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+.card a {
+    color: #00a884;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+.card .button {
+    background-color: #00a884;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.card .button.try-again {
+    background-color: transparent;
+    border: 2px solid #00a884;
+    color: #00a884;
+}
+.card .button.try-again:hover {
+    background-color: #00a884;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    font-weight: bold;
+}
+.lunch {
+    font-weight: bold;
+}

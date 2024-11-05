@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 15px;
+}
+.left{
+    background-color: #E28525;
+    height: 95vh;
+    color: white;
+}
+.main{
+    margin-top: 20vh;
+    font-size: 30px;
+}
+.small{
+    margin-top: 20vh;
+    font-size: 18px;
+}
+.button1{
+    color: #E28525;
+}
+.middle{
+    background-color: #016972;
+    height: 95vh;
+    color: white;
+}
+.button2{
+    color: #016972;
+}
+.right{
+    background-color: #00403F;
+    height: 95vh;
+    color: white;
+}
+.button3{
+    color: #00403F;
+}
+button{
+    background-color: white;
+    margin-top: 20vh;
+    border: none;
+    border-radius: 40px;
+    height: 10vh;
+    width: 35vh;
+}

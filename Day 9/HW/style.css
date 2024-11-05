@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #2b6a6c;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.section-title {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.card {
+    background-color: #2b6a6c;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.card .learn-more {
+    background-color: #a0d6d1;
+    color: #2b6a6c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+.how-we-do {
+    background-color: #e0f2f1;
+    padding: 50px 0;
+}
+.how-we-do .section-title {
+    margin-bottom: 40px;
+}
+.how-we-do .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.how-we-do .step {
+    width: 30%;
+    margin-bottom: 20px;
+}
+.how-we-do .step h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.how-we-do .step p {
+    font-size: 1em;
+}
+.how-we-do .contact-card {
+    background-color: #2b6a6c;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+.how-we-do .contact-card h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.how-we-do .contact-card .get-in-touch {
+    background-color: #a0d6d1;
+    color: #2b6a6c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1em;
+}

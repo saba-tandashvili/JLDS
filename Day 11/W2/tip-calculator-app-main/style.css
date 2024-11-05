@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    background-color: #C5E4E7;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+.container{
+    height: 70vh;
+    width: 160vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    padding: 40px;
+}
+.text{
+    color: #6D7F7F;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 1vh;
+    display: flex;
+    justify-content: left;
+}
+.input{
+    height: 6vh;
+    width: 60vh;
+    border: none;
+    background-color: #F3F8FB;
+    border-radius: 5px;
+}
+#input1{
+    margin-bottom: 10vh;
+}
+.firsthalftips{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+.tip{
+    width: 20vh;
+    height: 7vh;
+    background-color: #00474B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3vh;
+    font-weight: bold;
+}
+#custom{
+    background-color: #F5F7FB;
+    color: #5D7A76;
+}
+.right{
+    height: 60vh;
+    width: 67vh;
+    background-color: #00474B;
+    margin-right: 0;
+    margin-left: 22vh;
+    padding: 30px;
+    border-radius: 30px;
+}
+.text2{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 1vh;
+    display: flex;
+    justify-content: left;
+}
+.money{
+    font-size: 7vh;
+    display: flex;
+    justify-content: right;
+    color: #33BDAC;
+    margin-top: 0;
+}
+#money{
+    margin-bottom: 24vh;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 60vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #0D686D;
+    color: #045B62;
+    font-size: 4vh;
+}
