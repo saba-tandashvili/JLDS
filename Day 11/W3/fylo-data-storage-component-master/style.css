@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0C122C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.box {
+    background-color: #1E2C69;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.box .logo i {
+    font-size: 24px;
+}
+.box .logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.box .icons {
+    display: flex;
+    gap: 10px;
+}
+.box .icons i {
+    font-size: 24px;
+    background-color: #1C2B4A;
+    padding: 10px;
+    border-radius: 5px;
+}
+.progress-container {
+    background-color: #1E2C69;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.progress-container .progress-info {
+    margin-bottom: 10px;
+}
+.progress-container .progress-bar {
+    background-color: #1C2B4A;
+    border-radius: 5px;
+    height: 10px;
+    width: 300px;
+    position: relative;
+}
+.progress-container .progress-bar .progress {
+    background-color: #FC5492;
+    height: 100%;
+    border-radius: 5px;
+    width: 81.5%;
+}
+.progress-container .progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.progress-container .remaining {
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    background-color: white;
+    color: #202A44;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
